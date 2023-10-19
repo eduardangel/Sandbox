@@ -6,7 +6,7 @@ public class Main {
         hello("user");
         hello("Aleksey");
 
-        Square s = new Square(6);
+        Square s = new Square(7);
 //        s.l = 5;
         System.out.println("Площадь квадрата со стороной " + s.l + " = " + area(s));
 
