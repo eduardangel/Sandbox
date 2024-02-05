@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87f2ad1d-b388-4ec7-b1bb-3da9566b5646" name="Changes" comment="Commit_161223">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Equality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Equation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/EquationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="87f2ad1d-b388-4ec7-b1bb-3da9566b5646" name="Changes" comment="Commit_300124">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../adressbook-web-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../adressbook-web-tests/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/appmanager/ApplicationManger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/appmanager/ApplicationManger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/appmanager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/tests/GroupModificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/tests/GroupModificationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/appmanager/GroupHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/tests/GroupDeleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../adressbook-web-tests/src/test/java/addressbook/tests/GroupDeleteTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +99,7 @@
       <recent name="addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GroupCreationTest">
+  <component name="RunManager" selected="Gradle.GroupModificationTest">
     <configuration name="Equality" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Equality" />
       <module name="Sandbox.main" />
@@ -220,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GroupCreationTest" />
         <item itemvalue="Gradle.GroupModificationTest" />
+        <item itemvalue="Gradle.GroupDeleteTest" />
+        <item itemvalue="Gradle.GroupCreationTest" />
         <item itemvalue="Application.Equality" />
         <item itemvalue="Gradle.EquationTests" />
-        <item itemvalue="Gradle.GroupDeleteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702733012549</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Commit_300124">
+      <created>1706604290006</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706604290006</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,7 +342,8 @@
     <MESSAGE value="Commit_1910233" />
     <MESSAGE value="Commit_2010233" />
     <MESSAGE value="Commit_161223" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit_161223" />
+    <MESSAGE value="Commit_300124" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit_300124" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
