@@ -9,6 +9,7 @@ import org.openqa.selenium.remote.Browser;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 public class ApplicationManger {
   private final Browser browser;
@@ -33,6 +34,7 @@ public class ApplicationManger {
     }
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
+    driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
     driver.get("http://localhost:84/addressbook/group.php");
     groupHelper = new GroupHelper(driver);
     navigationHelper = new NavigationHelper(driver);
